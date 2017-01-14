@@ -5,6 +5,7 @@
     android:toDegrees="359"
     android:pivotX="50%"
     android:pivotY="50%"
-    android:interpolator="@android:anim/linear_interpolator"
+    android:interpolator="@android:anim/overshoot_interpolator"
     android:repeatCount="infinite"
-    android:duration="1500" />
+    android:repeatMode="reverse"
+    android:duration="1200" />
